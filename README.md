@@ -40,3 +40,8 @@
       ```
 
    However, a file `eslintrc.cjs` was automatically created when running `npm create vite@4`, and ESLint already seemed to work with testing, **so these steps of the instructions were ignored** (perhaps this is an update to the ESLint plugin, a difference between Windows/Mac, or else an update to vite itself).
+
+# React Router
+
+1. Installing React Router:
+   -  For consistency with the course, version 6 was used: `npm install react-router-dom@6`. Future project should just use `npm install react-router-dom` for the latest version.
