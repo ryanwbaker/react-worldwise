@@ -17,7 +17,7 @@
    ```
 
 1. Run the app with `npm run dev`.
-1. The instructions seem to differ with what happened when creating this app. The instructions said ESLint needs to be configured for each new vite project:
+1. ESLint needs to be configured for each new vite project. Delete the file `.eslintrc.cjs` that was automatically created and complete the following steps:
 
    1. Run `npm install eslint vite-plugin-eslint eslint-config-react-app --save-dev`
    1. Create `.eslintrc.json` and create an object:
@@ -38,8 +38,6 @@
           plugins: [react(), eslint()],
       })
       ```
-
-   However, a file `eslintrc.cjs` was automatically created when running `npm create vite@4`, and ESLint already seemed to work with testing, **so these steps of the instructions were ignored** (perhaps this is an update to the ESLint plugin, a difference between Windows/Mac, or else an update to vite itself).
 
 # React Router
 
